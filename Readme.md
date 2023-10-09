@@ -14,9 +14,7 @@ O desafio tem como objetivo avaliar o desenvolvimento de uma EDA (exploratory da
 
 ### 1) Análise do dataset
 
-Entender como os valores 'no data' estão distribuídos para os países, substitui-los por 'None' e verificar o percentual que os valores nulos representam para cada país.
-
-Foi verificado que o dataset também contém os valors de GPD para grupos/categorias, dividos em: economias, regiões, continentes e conjunto de continentes.
+Entender como os valores 'no data' estão distribuídos para os países.
 
 ### 2) Países por grupo/categoria
 
@@ -44,29 +42,17 @@ A partir desse momento, foram análisados todos os paises que apresentavam dados
 - Central Asia and the Caucasus
 - Central America
 
-### 3) Definição do método para substituição dos valores nulos
+### 3) Validando os dados tratados/pré-processados e salvando num arquivo .csv
+A partir desse momento, foi gerado um arquivo csv com dados pré-processados que podem ser utilizados para o modelo de predição que mais for performático.
+Optou-se por essa decisão, para facilitar o processo de feature engeneering, sem precisar revisitar os passos de EDA.
+Nesse caso então ainda haverão dados `NaN` para tratativas.
+ 
+### 4) Escolha do modelo final
 
-## 4) Escolha do modelo final
+### 5) Executando o projeto
 
+### 6) Executar o notebook
 
-## 5) Executando o projeto
-
-### 5.1) Clonar o repositório
-
-` git clone https://github.com/Racaesi/desafio_ds_lighthouse.git` 
-
-### 6.2) Criação do ambiente virtual
-
-`python -m venv venv` 
-
-### 6.3) Ativar a venv no linux
-
-`source venv/bin/activate`
-
-### 6.4) Instalar as dependências
-
-`pip install -r requirements.txt`
-
-### 6.5) Executar o notebook
-
-Este notebook gera apenas um arquivo de saída 'df_predictions.csv' com o modelo final de predição. 
+Este notebook gera alguns arquivos de saída:
+* 'df_eda.csv' com dados pré-processados
+* 'df_predictions.csv' com o modelo final de predição. 

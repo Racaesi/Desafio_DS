@@ -46,12 +46,14 @@ A partir desse momento, foram análisados todos os paises que apresentavam dados
 A partir desse momento, foi gerado um arquivo csv com dados pré-processados que podem ser utilizados para o modelo de predição que mais for performático.
 Optou-se por essa decisão, para facilitar o processo de feature engeneering, sem precisar revisitar os passos de EDA.
 Nesse caso então ainda haverão dados `NaN` para tratativas.
- 
+
 ### 4) Escolha do modelo final
 
 ### 5) Executando o projeto
 
 ### 6) Executar o notebook
+
+Alterar, path para ler o arquivo da pasta raw, e verificar diretório de salvaguarda dos arquivos gerados.
 
 Este notebook gera alguns arquivos de saída:
 * 'df_eda.csv' com dados pré-processados
